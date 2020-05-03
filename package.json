@@ -1,0 +1,23 @@
+{
+  "name": "yup-config",
+  "description": "Validate configuration objects using yup.",
+  "version": "1.0.0",
+  "main": "dist",
+  "types": "dist",
+  "license": "MIT",
+  "repository": "mattinsler/yup-config",
+  "scripts": {
+    "build": "rm -rf dist && tsc"
+  },
+  "files": [
+    "dist"
+  ],
+  "devDependencies": {
+    "@types/node": "13.13.4",
+    "@types/yup": "0.28.0",
+    "typescript": "3.8.3"
+  },
+  "dependencies": {
+    "yup": "0.28.5"
+  }
+}
